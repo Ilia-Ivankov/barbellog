@@ -1,0 +1,10 @@
+{
+  "name": "barbellog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local development launcher for Barbellog",
+  "scripts": {
+    "db:migrate": "npm --prefix backend/barbellog-backend run db:migrate",
+    "dev": "node scripts/dev.mjs"
+  }
+}

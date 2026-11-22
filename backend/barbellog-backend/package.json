@@ -1,0 +1,31 @@
+{
+  "name": "barbellog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx --test test/api.test.ts",
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "npm",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
